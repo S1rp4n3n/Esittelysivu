@@ -1,0 +1,62 @@
+
+/* Määritellään peruskuviot taustaväreineen */
+body {
+    background-color:rgb(134, 184, 185);
+    text-align:center;
+    font-family:verdana, arial, sans-serif; /*fonttivalinnoilla varmistetaan toimivuus*/
+    margin: 0px auto;
+}
+/* Otsikon ominaisuudet määritellään "kertakäyytöisyysperiaatteella" */
+#otsikko {
+    text-align: center;
+    font-size: 300%; /*Suurensin vähän otsikon kokoa */
+    background-color: rgb(26, 110, 113);
+    height: 100px; /* Otsikkolaatikon koon korkeusmäärittely */
+    color:rgb(242, 236, 236);
+    letter-spacing:3px;
+    margin: 0px;
+    padding-top: 40px; /* Yksi tapa keskittää otsikko palkin kekskelle korkeussuunnassa */
+}
+/* Navipalkin määrittely erikseen*/
+.Navigointipalkki {
+    background-color: rgb(145, 139, 139);
+    color: whitesmoke;
+    height: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+/* väliotsikoiden määrittely */
+h2 {
+    background-color: rgb(167, 49, 128);
+    color:rgb(250, 247, 247);
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 15px;
+    margin: 50px;
+    height: 50px;
+}
+
+/* Leipätekstin määrittely tekstin asettumiseksi vasempaan laitaan 
+ja toisaalta irti reunasta toisin kuin bodyssa oli määritelty */
+p {
+    text-align: left;
+    margin: 50px;
+}
+/* linkin värittely */
+a:link {color:#4965b9;}
+a:visited {color:#d4348c;}
+a:hover {color:red;}
+a:active {color:#ff6f00;}
+
+address {color:rgb(250, 247, 247); margin-bottom: 50px}
+
+/* Listan sijainti piti määritellä bodysta poiketen vasempaan reunaan */
+ul {
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
